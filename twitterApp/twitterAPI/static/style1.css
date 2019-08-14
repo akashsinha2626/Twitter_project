@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form-background{
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+     background-image: url("/static/css/image2.jpg");
+     position:absolute;
+     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form-container{
+    background-color:white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top:70px;
+    width:440px;
+    height:400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:rgb(245,245,245);
+    box-shadow: 0 8px 6px -6px black;
+    margin-top:25px;
+}
+label{
+    font-size:16px;
+    font-weight:800;
+}
+.text-name{
+    width:100%;
+    margin-top:4px;
+    margin-bottom: 3px;
+    height:30px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left:2px;
+    padding-left:2px;
+}
+.btn{
+    width:100px;   
+    height:33px;
+    margin-top:10px;
+    border-style: none;
+    background-color:blue;
+    color:white;
+    font-size:15px;
+}
+
+h1{
+    font-size:35px;
+    margin-top:-10px;
+}
+h5{
+    margin-top:10px;
+    background-color:rgba(0,0,0);
+    color:white;
+    padding:10px 0px 10px 5px;
+    
+}
+hr{
+    margin-top:-7px;
+    margin-bottom:20px;
+    border-style: double;
+}
+
+.btn:hover{
+    background-color:rgba(0,0,0,.4);
+    cursor: pointer;
+    color:grey;
+    color:white;
+}
+
+.kit{
+    color:white;
+    font-size:70px;
+    margin-top:-50px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+input{
+    width:100%;
+    height:30px;
+}

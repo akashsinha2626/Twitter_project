@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+{% load staticfiles %}
+            <link rel="stylesheet" href="{% static 'style1.css'%}"/>
+            <link rel="stylesheet" href="{% static 'bootstrap.min.css'%}"/>
+
+</head>
+<body>
+<div id="wrapper" >
+<div id="form-background">
+<h1 class="kit"><center>Twitter Application</center></h1>
+    <div id="form-container">
+    <h1 style="font-family: 'Hind Madurai', sans-serif;">LOG IN</h1>
+
+    <br>
+            {% block content %}
+            <form method ="post">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit" class="btn">Log In</button>
+                </form>
+            {% endblock %}
+        </div>
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+
+
+*{margin:0; padding:0; box-sizing: border-box; text-decoration: none;}
+#outer-container{
+    background-image: url("/static/css/image2.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    background-size: cover;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-1{
+    color:white;
+    font-family:'Cinzel Decorative', cursive;
+}
+#header{
+    background-color: rgba(0,0,0,0.89);
+    padding:5px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#header a{
+    color:cornflowerblue;
+    margin-top:13px
+}
+#header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#box-container{
+    width:400px;
+    height:400px;
+    background-color:white;
+    padding:25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+input{
+    margin:10px 10px 10px 0px;
+    width:100%;
+    height:35px;
+    border-style: none;
+    background-color: dodgerblue;
+    color:white;
+    
+}
+input:hover{
+  background-color:deepskyblue;
+  cursor: pointer;
+  font-size:17px;
+  transition: 0.1s;
+}
+
+h2{
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+hr{
+    border-bottom-style:dotted;
+    margin-top:10px;
+    margin-bottom:28px;
+}
+
