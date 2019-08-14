@@ -48,7 +48,7 @@ class StdOutListener(StreamListener):
 if __name__ == "__main__":
 
     hash_tag = ['Narendra Modi']
-    tweets_file = 'tweets.json'
+    #tweets_file = 'tweets.json'
     twitter_streamer = TwitterStreamer()
     twitter_streamer.stream_tweets(tweets_file, hash_tag)
 
