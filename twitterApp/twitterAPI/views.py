@@ -7,9 +7,12 @@ from .models import Tweets
 import json
 import requests
 
+# for all tweets in DB
 def home(request):
+    tweeet = Tweets.objects.all()
     return render(request, 'home.html')
 
+# for Search part from  DB
 def search(request):
     str = Tweets.objects.filter()
     return render(request, 'home.html')
